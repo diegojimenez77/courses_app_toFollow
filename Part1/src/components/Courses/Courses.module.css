@@ -1,0 +1,15 @@
+.searchBar {
+    /* background-color: aqua; */
+    display: flex;
+    padding: 0.5em;
+}
+
+.searchBar * {
+    font-size: x-small;
+
+}
+
+.searchBar button:last-of-type {
+    /* background-color: blueviolet; */
+    margin-left: auto;
+}

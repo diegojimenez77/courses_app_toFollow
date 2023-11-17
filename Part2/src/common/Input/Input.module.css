@@ -1,0 +1,9 @@
+.label {
+    display: flex;
+    flex-direction: column;
+}
+
+.label input {
+    margin-top: 0.2rem;
+    font-size: x-small;
+}

@@ -1,0 +1,62 @@
+.createcourse {
+    padding: 1rem;
+    font-size: small;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.description label {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+}
+
+.description label textarea {
+    font-family: inherit;
+    font-size: x-small;
+}
+
+.durationAuthor {
+    display: flex;
+}
+
+.durationSide {
+    width: 50%;
+    padding-right: 2rem;
+    text-align: center;
+}
+
+.durationSide div label {
+    text-align: left;
+} 
+
+.durationSide p {
+    margin-top: 2rem;
+}
+
+.durationSide p:last-child {
+    text-align: left;
+    margin-top: 1rem;
+}
+
+.authorSide {
+    width: 50%;
+    padding-left: 2rem;
+
+}
+
+.authorSide p:last-child {
+    margin-top: 2rem;
+}
+
+.authorSide div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    height: 1.5rem
+}

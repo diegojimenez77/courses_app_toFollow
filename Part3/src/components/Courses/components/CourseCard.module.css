@@ -1,0 +1,49 @@
+.courseCard {
+    display: flex;
+    /* border: solid black 1px; */
+    padding: 2%;
+    justify-content: space-between;
+}
+
+.leftSide {
+    /* background-color: blueviolet; */
+    width: 60vw;
+    padding-top: 1.5em;
+    padding-bottom: 0.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+.leftSide h2 {
+    margin-top: 0;
+}
+
+.leftSide p {
+    margin-top: 0;
+    font-size: 0.75em;
+}
+
+.rightSide {
+    /* background-color: blue; */
+    width: 30vw;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.rightSide h3 {
+    font-weight: 400;
+    font-size: 0.75em;
+    margin: 0.25em;
+    
+}
+
+.rightSide button {
+    /* background-color: yellowgreen; */
+    font-size: 0.75em;
+    width: fit-content;
+    align-self: center;
+    margin-top: auto;
+}
